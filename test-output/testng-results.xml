@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-06T19:22:18 IST" name="Suite" finished-at="2024-04-06T19:25:48 IST" duration-ms="210581">
+    <groups>
+    </groups>
+    <test started-at="2024-04-06T19:22:18 IST" name="Test" finished-at="2024-04-06T19:25:48 IST" duration-ms="210581">
+      <class name="TestClasses.TravelPageTest">
+        <test-method signature="displayLoginElementsinTravel()[pri:0, instance:TestClasses.TravelPageTest@2a7ed1f]" started-at="2024-04-06T19:23:15 IST" name="displayLoginElementsinTravel" finished-at="2024-04-06T19:23:29 IST" duration-ms="14103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayLoginElementsinTravel -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestClasses.TravelPageTest@2a7ed1f]" started-at="2024-04-06T19:23:29 IST" name="flushReports" finished-at="2024-04-06T19:23:29 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="verifyInvalidCredentials(java.lang.String,java.lang.String)[pri:1, instance:TestClasses.TravelPageTest@2a7ed1f]" started-at="2024-04-06T19:23:31 IST" name="verifyInvalidCredentials" data-provider="invalidData" finished-at="2024-04-06T19:23:50 IST" duration-ms="18693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asdfdse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[232341]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCredentials -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestClasses.TravelPageTest@2a7ed1f]" started-at="2024-04-06T19:23:50 IST" name="flushReports" finished-at="2024-04-06T19:23:50 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestClasses.TravelPageTest -->
+      <class name="TestClasses.ElectricVehiclesPageTest">
+        <test-method signature="clickElectricVehicle()[pri:0, instance:TestClasses.ElectricVehiclesPageTest@4f4c4b1a]" started-at="2024-04-06T19:23:50 IST" name="clickElectricVehicle" finished-at="2024-04-06T19:24:02 IST" duration-ms="12198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickElectricVehicle -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestClasses.ElectricVehiclesPageTest@4f4c4b1a]" started-at="2024-04-06T19:24:02 IST" name="flushReports" finished-at="2024-04-06T19:24:02 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="displayMaxPricedElectricVehicle()[pri:1, instance:TestClasses.ElectricVehiclesPageTest@4f4c4b1a]" started-at="2024-04-06T19:24:02 IST" name="displayMaxPricedElectricVehicle" finished-at="2024-04-06T19:24:15 IST" duration-ms="13332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayMaxPricedElectricVehicle -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestClasses.ElectricVehiclesPageTest@4f4c4b1a]" started-at="2024-04-06T19:24:15 IST" name="flushReports" finished-at="2024-04-06T19:24:15 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestClasses.ElectricVehiclesPageTest -->
+      <class name="TestClasses.FlipkartHomeTest">
+        <test-method signature="openFlipkart()[pri:0, instance:TestClasses.FlipkartHomeTest@77659b30]" started-at="2024-04-06T19:22:18 IST" name="openFlipkart" finished-at="2024-04-06T19:22:30 IST" duration-ms="12590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFlipkart -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestClasses.FlipkartHomeTest@77659b30]" started-at="2024-04-06T19:22:30 IST" name="flushReports" finished-at="2024-04-06T19:22:31 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="displayFlipkartMenu()[pri:1, instance:TestClasses.FlipkartHomeTest@77659b30]" started-at="2024-04-06T19:22:31 IST" name="displayFlipkartMenu" finished-at="2024-04-06T19:22:40 IST" duration-ms="8701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayFlipkartMenu -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestClasses.FlipkartHomeTest@77659b30]" started-at="2024-04-06T19:22:40 IST" name="flushReports" finished-at="2024-04-06T19:22:40 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestClasses.FlipkartHomeTest -->
+      <class name="TestClasses.PetrolVehiclesPageTest">
+        <test-method signature="clickPetrolVehicle()[pri:0, instance:TestClasses.PetrolVehiclesPageTest@723e88f9]" started-at="2024-04-06T19:24:15 IST" name="clickPetrolVehicle" finished-at="2024-04-06T19:24:27 IST" duration-ms="11304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPetrolVehicle -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestClasses.PetrolVehiclesPageTest@723e88f9]" started-at="2024-04-06T19:24:27 IST" name="flushReports" finished-at="2024-04-06T19:24:27 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="displayMaxPricedPetrolVehicle()[pri:1, instance:TestClasses.PetrolVehiclesPageTest@723e88f9]" started-at="2024-04-06T19:24:27 IST" name="displayMaxPricedPetrolVehicle" finished-at="2024-04-06T19:24:41 IST" duration-ms="14519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayMaxPricedPetrolVehicle -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestClasses.PetrolVehiclesPageTest@723e88f9]" started-at="2024-04-06T19:24:41 IST" name="flushReports" finished-at="2024-04-06T19:24:41 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestClasses.PetrolVehiclesPageTest -->
+      <class name="TestClasses.CartPageTest">
+        <test-method signature="singleAddToCart()[pri:0, instance:TestClasses.CartPageTest@5f0fd5a0]" started-at="2024-04-06T19:24:41 IST" name="singleAddToCart" finished-at="2024-04-06T19:25:02 IST" duration-ms="20823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleAddToCart -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestClasses.CartPageTest@5f0fd5a0]" started-at="2024-04-06T19:25:02 IST" name="flushReports" finished-at="2024-04-06T19:25:02 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="multipleAddToCart()[pri:1, instance:TestClasses.CartPageTest@5f0fd5a0]" started-at="2024-04-06T19:25:02 IST" name="multipleAddToCart" finished-at="2024-04-06T19:25:48 IST" duration-ms="45832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleAddToCart -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestClasses.CartPageTest@5f0fd5a0]" started-at="2024-04-06T19:25:48 IST" name="flushReports" finished-at="2024-04-06T19:25:48 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestClasses.CartPageTest -->
+      <class name="TestClasses.SearchResultTest">
+        <test-method signature="displaySearchContent()[pri:0, instance:TestClasses.SearchResultTest@4ea5b703]" started-at="2024-04-06T19:22:40 IST" name="displaySearchContent" finished-at="2024-04-06T19:22:51 IST" duration-ms="11100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displaySearchContent -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestClasses.SearchResultTest@4ea5b703]" started-at="2024-04-06T19:22:51 IST" name="flushReports" finished-at="2024-04-06T19:22:52 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="displayMaxProductAndTraverse()[pri:1, instance:TestClasses.SearchResultTest@4ea5b703]" started-at="2024-04-06T19:22:52 IST" name="displayMaxProductAndTraverse" finished-at="2024-04-06T19:23:15 IST" duration-ms="23090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayMaxProductAndTraverse -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestClasses.SearchResultTest@4ea5b703]" started-at="2024-04-06T19:23:15 IST" name="flushReports" finished-at="2024-04-06T19:23:15 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestClasses.SearchResultTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
